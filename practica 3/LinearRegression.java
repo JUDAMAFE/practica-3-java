@@ -260,8 +260,8 @@ public class LinearRegression {
             // 1) REGRESIÓN SIMPLE: Ice cream selling data (1 feature -> sales ~ temperature)
             // --------------
             System.out.println("=== Experimento: Ice Cream (regresión simple) ===");
-            DataSet ice = loadCSV("Ice_cream_selling_data.csv"); // asegúrate del nombre exacto
-            // Escalamos (aunque para una sola variable no es estrictamente necesario)
+            DataSet ice = loadCSV("Ice_cream_selling_data.csv"); 
+            // Escalamos 
             LinearRegression modelIce = new LinearRegression();
             double[][] X_ice_scaled = modelIce.scaleData(ice.X);
 
@@ -340,3 +340,4 @@ public class LinearRegression {
         }
     }
 }
+
