@@ -9,9 +9,8 @@
 
 ##  Descripción del proyecto
 
-El programa implementa una clase llamada **`LinearRegression`**, la cual modela la ecuación de una regresión lineal:
+El programa implementa una clase llamada **`LinearRegression`**, la cual modela la ecuación de una regresión lineal.
 
-\[ \hat{y} = w_1x_1 + w_2x_2 + ... + w_nx_n + b \]
 
 El modelo se entrena usando la ecuación normal, calcula los pesos y el bias, realiza predicciones, evalúa el error mediante el coeficiente de determinación R², y permite escalar los datos.
 
